@@ -76,3 +76,8 @@ a {
     flex-direction: column;
     justify-content: column;  
 }
+
+.topico{
+    display: flex;
+    flex-direction: row;
+}
