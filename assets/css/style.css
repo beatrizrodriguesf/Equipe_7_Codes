@@ -130,9 +130,9 @@ a {
     margin: 0 0 0 1rem;
 }
 
-.img-mecanica{
-    width: 36px;
-    height: 36px;
+.img-mecanica2{
+    min-width: 36px;
+    min-height: 36px;
 }
 
 .project{
@@ -195,4 +195,25 @@ a {
     margin-top: 2rem;
     float: right;
     font-size: 0.7em;
+}
+
+.fixar {
+    min-width: 5%;
+    max-width: 8%;
+}
+
+.preenchimento{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 25%;
+    justify-content: flex-start;
+
+}
+
+.adicionar{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
 }
