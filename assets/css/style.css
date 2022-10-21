@@ -1,3 +1,7 @@
+html, body {
+    height: 85%;
+}
+
 h1 {
     font-size: 2rem;
     padding: 1rem;
@@ -5,8 +9,7 @@ h1 {
 
 body {
     margin:  1rem;
-    height: auto;
-    width: 100;
+    height: 100%;
     overflow: auto;
 }
 
@@ -23,9 +26,10 @@ header {
 }
 
 main {
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    height: 90%;
 }
 
 footer {
@@ -35,11 +39,14 @@ footer {
     width: 100%;
     height: 3rem;
     background-color: lightgray;
+    
 }
 
 nav {
     display: flex;
+    height: 100%;
     justify-content: space-around;
+    align-items: center;
 }
     
 .img-std {
@@ -47,9 +54,9 @@ nav {
     height: 5rem;
 }
 
-.teste {
+.img-mecanica {
     padding: .5rem;
-    width: 3rem;
+    width: 6rem;
 }
 
 .negrito {
@@ -79,5 +86,46 @@ a {
 
 .topico{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+}
+
+.arvore{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.main-mecanica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.topicos-cinematica{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.batata{
+    min-height: 100%;
+}
+
+.teste2{
+    padding: 2rem 0;
+}
+
+.num{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    flex-grow: 2;
+    width: 2rem;
+    max-width: 3rem;
+    border-radius: 6rem;
+}
+
+.titulo{
+    flex-grow: 1;
+    margin: 0 0 0 1rem;
 }
