@@ -39,7 +39,6 @@ footer {
     width: 100%;
     height: 3rem;
     background-color: lightgray;
-    
 }
 
 nav {
@@ -91,10 +90,50 @@ a {
 
 .arvore{
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    height: 100%;
+    position: relative;
 }
 
+.folha1{
+    position: absolute;
+    background-color: white;
+    top: 60%;
+    left: 64%;
+}
+
+.folha2{
+    position: absolute;
+    background-color: white;
+    top: 30%;
+    left: 21%;
+}
+
+.folha3{
+    position: absolute;
+    background-color: white;
+    top: 13%;
+    left: 56%;
+}
+
+.folha4{
+    position: absolute;
+    background-color: white;
+    top: 43%;
+    left: 58%;
+}
+
+.folha5{
+    position: absolute;
+    background-color: white;
+    top: 61%;
+    left: 16.5%;
+}
+.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 90%;
+}
 .main-mecanica {
     display: flex;
     flex-direction: column;
