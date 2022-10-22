@@ -66,6 +66,8 @@ nav {
     border-style: solid;
     border-bottom-width: 0.1rem;
     border-color: black;
+    display: flex;
+    flex-direction: row;
 }
 
 .img-std {
@@ -198,6 +200,7 @@ a {
     margin: 0.7rem 0.2rem;
     padding: 0.5rem;
     background-color: #D9D9D9;
+    border-radius: 0.7rem;
 }
 
 .project-title{
@@ -207,6 +210,7 @@ a {
 .search-img{
     width: 1.5rem;
     height: 1.5rem;
+    margin-right: 0.5rem;
 }
 
 .search{
@@ -276,3 +280,26 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.post-it{
+    background-color: lightgray;
+    width: 9rem;
+    height: 8.5rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.formula{
+    margin: 0.5rem;
+}
+
+.area{
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.cadeado{
+    align-self: center;
+}
+
