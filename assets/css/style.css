@@ -108,7 +108,6 @@ a {
 .coluna_topo{
     display: flex;
     flex-direction: column;
-    justify-content: column;  
 }
 
 .topico{
