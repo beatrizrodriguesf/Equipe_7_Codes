@@ -31,7 +31,7 @@ body {
     overflow: auto;
     display: flex;
     flex-direction: column;
-    background-color: #DED2CE;
+    background-color: #F2EBDC;
 }
 
 header {
@@ -59,7 +59,7 @@ footer {
     left: 0;
     width: 100%;
     height: 3rem;
-    background-color: #58C79E;
+    background-color: #BF9780;
 }
 
 nav {
@@ -79,12 +79,12 @@ nav {
 
 .materia{
     width:75%;
-    background-color: #BF7C63;
+    background-color: #025959;
     padding: 1.5rem;
     padding-left: 2rem;
     border-style: solid;
     border-bottom-width: 0.1rem;
-    border-color: #014A2F;
+    border-color: #014034;
     display: flex;
     flex-direction: row;
     font-family: 'Noto Serif', serif;
@@ -106,6 +106,7 @@ nav {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .esquerda{
@@ -143,35 +144,40 @@ a {
 
 .folha1{
     position: absolute;
-    background-color: #F2E2DC;
+    background-color: #F2EBDC;
+    font-family: 'Lato', sans-serif;
     top: 60%;
     left: 64%;
 }
 
 .folha2{
     position: absolute;
-    background-color: #F2E2DC;
+    background-color: #F2EBDC;
+    font-family: 'Lato', sans-serif;
     top: 30%;
     left: 21%;
 }
 
 .folha3{
     position: absolute;
-    background-color: #F2E2DC;
+    background-color: #F2EBDC;
+    font-family: 'Lato', sans-serif;
     top: 13%;
     left: 56%;
 }
 
 .folha4{
     position: absolute;
-    background-color: #F2E2DC;
+    background-color: #F2EBDC;
+    font-family: 'Lato', sans-serif;
     top: 43%;
     left: 58%;
 }
 
 .folha5{
     position: absolute;
-    background-color: #F2E2DC;
+    background-color: #F2EBDC;
+    font-family: 'Lato', sans-serif;
     top: 61%;
     left: 16.5%;
 }
@@ -207,7 +213,8 @@ a {
 .num{
     display: flex;
     align-items: center;
-    background-color: #58C79E;
+    background-color: #025959;
+    color: white;
     flex-grow: 2;
     width: 2rem;
     max-width: 3rem;
@@ -227,7 +234,8 @@ a {
 .project{
     margin: 0.7rem 0.2rem;
     padding: 0.5rem;
-    background-color: #BF7C63;
+    background-color: #025959;
+    color: white;
     border-radius: 0.7rem;
     font-family: 'Noto Serif', serif;
 }
@@ -254,7 +262,7 @@ a {
 }
 
 .search input{
-    background-color: #D9D9D9;
+    background-color: #F2EBDC;
     border: hidden;
 }
 
@@ -264,7 +272,6 @@ a {
     display: flex;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    color: #014A2F;
 }
 
 .body-topic{
@@ -272,7 +279,7 @@ a {
     font-size: 1.1em;
     display: unset;
     font-family: 'Noto Serif', serif;
-    background-color: #F2E2DC;
+    background-color: #F2EBDC;
 }
 
 .body-topic p{
@@ -320,7 +327,8 @@ a {
 }
 
 .post-it{
-    background-color: #BF7C63;
+    background-color: #025959;
+    color: white;
     width: 9rem;
     height: 8.5rem;
     margin: 0.5rem;
@@ -346,4 +354,8 @@ a {
 .no-space{
     justify-content: unset;
     margin-bottom: 0;
+}
+
+.texto-claro{
+    color:white;
 }
