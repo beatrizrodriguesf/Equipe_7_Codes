@@ -3,30 +3,20 @@ html, body {
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
     font-size: 2rem;
     padding: 1rem;
 }
 
 title{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
 }
 
 h2{
-    font-family: 'Lato', sans-serif;
-}
-
-
-.fonte_principal {
-    font-family: 'Lato', sans-serif;
-}
-
-.fonte_texto {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
 }
 
 body {
-    margin:  1rem;
     height: 100%;
     overflow: auto;
     display: flex;
@@ -35,18 +25,14 @@ body {
 }
 
 header {
+    padding: 1rem;
     display: flex;
     justify-content: center;
 }
 
-.voltar {
-    position: absolute;
-    top: 2.5rem;
-    left: 1rem;
-    height: 3rem;
-}
-
 main {
+    padding-right: 1rem;
+    padding-left: 1rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -69,293 +55,26 @@ nav {
     align-items: center;
 }
 
-.header-materias{
-    height: 4rem;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.main-materias{
-    align-items: center;
-}
-
-.materia{
-    width:75%;
-    background-color: #025959;
-    padding: 1.5rem;
-    padding-left: 2rem;
-    border-style: solid;
-    border-bottom-width: 0.1rem;
-    border-color: #014034;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Noto Serif', serif;
-}
-
-.img-std {
-    width: 5rem;
-    height: 5rem;
-}
-
-.img-mecanica {
-    padding: .5rem;
-    width: 6rem;
+.voltar {
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+    height: 3rem;
 }
 
 .negrito {
     font-weight: bold;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.fonte_texto {
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
 }
 
-.esquerda{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.linha {
-    display: flex;
-    justify-content: space-around;
-}
-
-.coluna {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.coluna_topo{
-    display: flex;
-    flex-direction: column;
-}
-
-.topico{
-    display: flex;
-    justify-content: center;
-}
-
-.arvore{
-    display: flex;
-    height: 100%;
-    position: relative;
-}
-
-.folha1{
-    position: absolute;
-    background-color: #F2EBDC;
-    font-family: 'Lato', sans-serif;
-    top: 60%;
-    left: 64%;
-}
-
-.folha2{
-    position: absolute;
-    background-color: #F2EBDC;
-    font-family: 'Lato', sans-serif;
-    top: 30%;
-    left: 21%;
-}
-
-.folha3{
-    position: absolute;
-    background-color: #F2EBDC;
-    font-family: 'Lato', sans-serif;
-    top: 13%;
-    left: 56%;
-}
-
-.folha4{
-    position: absolute;
-    background-color: #F2EBDC;
-    font-family: 'Lato', sans-serif;
-    top: 43%;
-    left: 58%;
-}
-
-.folha5{
-    position: absolute;
-    background-color: #F2EBDC;
-    font-family: 'Lato', sans-serif;
-    top: 61%;
-    left: 16.5%;
-}
-.index{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 90%;
-    font-family: 'Noto Serif', serif;
-}
-
-.main-mecanica {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.topicos-cinematica{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-family: 'Lato', sans-serif;
-}
-
-.batata{
-    min-height: 100%;
-}
-
-.teste2{
-    padding: 2rem 0;
-}
-
-.num{
-    display: flex;
-    align-items: center;
-    background-color: #025959;
-    color: white;
-    flex-grow: 2;
-    width: 2rem;
-    max-width: 3rem;
-    border-radius: 6rem;
-}
-
-.titulo{
-    flex-grow: 1;
-    margin: 0 0 0 1rem;
-}
-
-.img-mecanica2{
-    min-width: 36px;
-    min-height: 36px;
-}
-
-.project{
-    margin: 0.7rem 0.2rem;
-    padding: 0.5rem;
-    background-color: #025959;
-    color: white;
-    border-radius: 0.7rem;
-    font-family: 'Noto Serif', serif;
-}
-
-.project-description{
-    font-family: 'Noto Serif', serif;
-}
-
-.project-title{
-    margin-bottom: 0.7rem;
-    font-family: 'Lato', sans-serif;
-}
-
-.search-img{
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-right: 0.5rem;
-}
-
-.search{
-    display: flex;
-    align-items:center;
-    margin-bottom: 2em;
-}
-
-.search input{
-    background-color: #F2EBDC;
-    border: hidden;
-}
-
-.title-topic{
-    width: 70%;
-    font-size: 1.3em;
-    display: flex;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-}
-
-.body-topic{
-    margin: 0.3rem;
-    font-size: 1.1em;
-    display: unset;
-    font-family: 'Noto Serif', serif;
-    background-color: #F2EBDC;
-}
-
-.body-topic p{
-    margin-bottom: 0.9rem;
-    display: block;
-    text-align: justify;
-}
-
-.body-topic .formula-topic{
-    margin: 1.5rem 0rem;
-    text-align: center;
-}
-
-.body-topic .image-topic{
-    float: right;
-    width: 5rem;
-    height: 5rem;
-}
-
-.body-topic .references-topic{
-    margin-top: 2rem;
-    float: right;
-    font-size: 0.7em;
-}
-
-.fixar {
-    min-width: 5%;
-    max-width: 8%;
-}
-
-.preenchimento{
-    display: flex;
-    flex-direction: column; 
-    width: 100%;
-    height: 25%;
-    justify-content: flex-start;
-
-}
-
-.adicionar{
-    display: flex;
-    padding: 5%;
-    justify-content: center;
-    align-items: center;
-}
-
-.post-it{
-    background-color: #025959;
-    color: white;
-    width: 9rem;
-    height: 8.5rem;
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.formula{
-    margin: 0.5rem;
-    font-family: 'Noto Serif', serif;
-}
-
-.area{
-    margin: 0.5rem;
-    margin-bottom: 1rem;
-    font-family: 'Lato', sans-serif;
-}
-
-.cadeado{
-    align-self: center;
-}
-
-.no-space{
-    justify-content: unset;
-    margin-bottom: 0;
-}
-
-.texto-claro{
-    color:white;
+.fonte_principal {
+    font-family: 'Lato', 'Noto Sans', sans-serif;
 }

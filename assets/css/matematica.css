@@ -1,0 +1,17 @@
+.project{
+    margin: 0.7rem 0.2rem;
+    padding: 0.5rem;
+    background-color: #025959;
+    color: white;
+    border-radius: 0.7rem;
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
+}
+
+.project-description{
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
+}
+
+.project-title{
+    margin-bottom: 0.7rem;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+}

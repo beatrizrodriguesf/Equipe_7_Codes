@@ -1,0 +1,63 @@
+main {
+    padding: 0rem;
+}
+
+.esquerda{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 90%;
+    font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
+}
+
+.arvore{
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+
+.folha1{
+    position: absolute;
+    background-color: #F2EBDC;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 60%;
+    left: 64%;
+}
+
+.folha2{
+    position: absolute;
+    background-color: #F2EBDC;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 30%;
+    left: 21%;
+}
+
+.folha3{
+    position: absolute;
+    background-color: #F2EBDC;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 13%;
+    left: 56%;
+}
+
+.folha4{
+    position: absolute;
+    background-color: #F2EBDC;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 43%;
+    left: 58%;
+}
+
+.folha5{
+    position: absolute;
+    background-color: #F2EBDC;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 61%;
+    left: 16.5%;
+}
