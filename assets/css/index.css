@@ -1,7 +1,3 @@
-main {
-    padding: 0rem;
-}
-
 .esquerda{
     width: 100%;
     display: flex;
@@ -9,6 +5,10 @@ main {
 }
 
 .index{
+    padding: 0rem;
+    max-width: 700px;
+    max-height: 700px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
