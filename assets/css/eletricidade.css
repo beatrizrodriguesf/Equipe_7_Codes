@@ -1,0 +1,26 @@
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.preenchimento{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 25%;
+    justify-content: flex-start;
+
+}
+
+.fixar {
+    min-width: 5%;
+    max-width: 8%;
+}
+
+.adicionar{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
