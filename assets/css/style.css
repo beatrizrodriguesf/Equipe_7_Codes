@@ -89,7 +89,7 @@ a {
 .project{
     margin: 0.7rem 0.2rem;
     padding: 0.5rem;
-    background-color: #02735E;
+    background-color: #025959;
     color: white;
     border-radius: 0.7rem;
     font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
@@ -100,7 +100,7 @@ a {
 .num{
     display: flex;
     align-items: center;
-    background-color: #02735E;
+    background-color: #025959;
     color: white;
     flex-grow: 2;
     width: 2rem;
@@ -170,7 +170,7 @@ a {
 }
 
 .post-it{
-    background-color: #02735E;
+    background-color: #025959;
     color: white;
     width: 9rem;
     height: 8.5rem;
@@ -281,12 +281,12 @@ a {
 
 .materia{
     width:75%;
-    background-color: #02735E;
+    background-color: #025959;
     padding: 1.5rem;
     padding-left: 2rem;
     border-style: solid;
     border-bottom-width: 0.1rem;
-    border-color: #014034;
+    border-color: #164040;
     display: flex;
     flex-direction: row;
     font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
