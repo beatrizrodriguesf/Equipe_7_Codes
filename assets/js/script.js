@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", function(event){
         dinamica.addEventListener('click', function(event){
             img = dinamica.querySelector('img')
             img.src='assets/img/dinamica_bloqueada.png'
+            function reseta_img() {
+                img.src='assets/img/dinamica.png'
+            }
+            setTimeout(reseta_img, 2000)
         });
     }
 
@@ -18,6 +22,10 @@ document.addEventListener("DOMContentLoaded", function(event){
         hidrostatica.addEventListener('click', function(event){
             img2 = hidrostatica.querySelector('img')
             img2.src='assets/img/hidrostatica_bloqueada.png'
+            function reseta_img2() {
+                img2.src='assets/img/hidro-removebg-preview.png'
+            }
+            setTimeout(reseta_img2, 2000)
         });
     }
 
@@ -25,6 +33,10 @@ document.addEventListener("DOMContentLoaded", function(event){
         hidrodinamica.addEventListener('click', function(event){
             img3 = hidrodinamica.querySelector('img')
             img3.src='assets/img/hidrodinamica_bloqueada.png'
+            function reseta_img3() {
+                img3.src='assets/img/hidrod.png'
+            }
+            setTimeout(reseta_img3, 2000)
         });
     }
     
@@ -32,6 +44,10 @@ document.addEventListener("DOMContentLoaded", function(event){
         gravitacao.addEventListener('click', function(event){
             img4 = gravitacao.querySelector('img')
             img4.src='assets/img/gravitacao_bloqueada.png'
+            function reseta_img4() {
+                img4.src='assets/img/gravitacao.png'
+            }
+            setTimeout(reseta_img4, 2000)
         });
     }
 
@@ -39,11 +55,15 @@ document.addEventListener("DOMContentLoaded", function(event){
         estatica.addEventListener('click', function(event){
             img5 = estatica.querySelector('img')
             img5.src='assets/img/estatica_bloqueada.png'
+            function reseta_img5() {
+                img5.src='assets/img/estatica.png'
+            }
+            setTimeout(reseta_img5, 2000)
         });
     }
 
     var url = window.location.href;
-    if(url.includes('index'))
+    if(url.includes('index') || url.includes('mecanica') || url.includes('cinematica') || url.includes('mruv'))
     {
         document.getElementById('home').src='assets/img/home_preenchido.png';
     }
