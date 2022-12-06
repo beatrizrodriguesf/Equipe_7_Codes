@@ -73,28 +73,36 @@ document.addEventListener("DOMContentLoaded", function(event){
 })
 
 function contador_formulas(){
+    var span_restantes = document.getElementById('restantes');
     var span = document.getElementById('quantidade_formulas');
     var quantidade_disponiveis = document.querySelector('.selecionados').querySelectorAll('.oculto').length;
     var quantidade_total = document.querySelector('.selecionados').querySelectorAll('li').length;
     span.innerHTML = quantidade_disponiveis;
-    if(quantidade_disponiveis == 1){
-        document.getElementById('plural').classList.add('oculto');
-    }
-    else{
-        document.getElementById('plural').classList.remove('oculto');
-    }
-    if(quantidade_disponiveis == 0){
-        document.getElementById('nenhuma_formula').classList.remove('oculto');
-    }
-    else{
+    span_restantes.innerHTML = quantidade_disponiveis;
+    
+    /* Mostra plural */
+    if(quantidade_disponiveis == 1)
+    { document.getElementById('plural').classList.add('oculto'); }
+    else
+    { document.getElementById('plural').classList.remove('oculto'); }
+
+    /* Mostra quando não houver nenhuma formula para fixar*/
+    if(quantidade_disponiveis == 0)
+    {   
+        document.getElementById('nenhuma_formula').classList.remove('oculto'); 
+        document.getElementById('pode_adicionar').classList.add('oculto');
+    }else{
         document.getElementById('nenhuma_formula').classList.add('oculto');
+        document.getElementById('pode_adicionar').classList.remove('oculto');
     }
-    if(quantidade_disponiveis == quantidade_total){
-        document.getElementById('nenhuma_formula_fixada').classList.remove('oculto');
+
+    /* Mostra quando não houver formula fixada */
+    if(quantidade_disponiveis == quantidade_total)
+    {   document.getElementById('nenhuma_formula_fixada').classList.remove('oculto'); 
+        document.getElementById('pode_adicionar').classList.add('oculto');
     }
-    else{
-        document.getElementById('nenhuma_formula_fixada').classList.add('oculto');
-    }
+    else
+    {   document.getElementById('nenhuma_formula_fixada').classList.add('oculto'); }
 }
 
 function selecionar(){
