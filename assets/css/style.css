@@ -4,6 +4,10 @@ html, body {
     height: 85%;
 }
 
+p {
+    line-height: 1.4rem;
+}
+
 h1 {
     font-family: 'Lato', 'Noto Sans', sans-serif;
     font-size: 2rem;
