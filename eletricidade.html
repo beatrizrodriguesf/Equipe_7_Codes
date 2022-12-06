@@ -9,6 +9,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
     </style>
+    <script src="assets/js/script.js"></script>
 </head>
 
 <body>
@@ -20,40 +21,55 @@
 
     <main>
         <!-- Fórmulas de eletricidade -->
-        
-        <ul class="coluna preenchimento fonte_texto">
+        <h2 class="negrito fonte_principal">Principais:</h2>
+        <ul class="coluna preenchimento fonte_texto selecionados">
             <!-- Lista para fórmulas fixadas -->
-            <li>
-                <h2 class="negrito fonte_principal">Principais:</h2>
+            <li class="item-1">
                 <a href="#">
                     <img src="assets/img/alfinete_preenchido.png" alt="placeholder" class="fixar">
-                    
                 </a>
                 U = R . I
             </li>
-            <li class="adicionar">Você ainda pode fixar mais 2 fórmulas!</li>
+            <li class="item-2 oculto">
+                <a href="#">
+                    <img src="assets/img/alfinete_preenchido.png" alt="placeholder" class="fixar">
+                </a>
+                P = U . I
+            </li>
+            <li class="item-3 oculto">
+                <a href="#">
+                    <img src="assets/img/alfinete_preenchido.png" alt="placeholder" class="fixar">
+                </a>
+                1/Req = 1/R1 + 1/R2 + 1/Rn
+            </li>
         </ul>
+        <div id="nenhuma_formula_fixada" class="adicionar oculto">Você não tem nenhuma fórmula fixada!</div>
+        <div class="adicionar">Você ainda pode fixar mais <span id="quantidade_formulas">&nbsp;</span> fórmula<span id="plural">s</span>!</div>
         
         <!-- Lista para fórmulas comuns -->
-        <ul class="coluna">
-            <li>
-                <h2 class="negrito">Outras:</h2>
+        <h2 class="negrito">Outras:</h2>
+        <ul class="coluna nao-selecionados">
+            <li class="oculto item-1">
+                <a href="#">
+                    <img src="assets/img/alfinete.png" alt="placeholder" class="fixar">
+                </a>
+                U = R . I
+            </li>
+            <li class="item-2">
                 <a href="#">
                     <img src="assets/img/alfinete.png" alt="placeholder" class="fixar">
                 </a>
                 P = U . I
-                
             </li>
-
-            <li>
+            <li class="item-3">
                 <a href="#">
                     <img src="assets/img/alfinete.png" alt="placeholder" class="fixar">
                     
                 </a>
                 1/Req = 1/R1 + 1/R2 + 1/Rn
             </li>
-
         </ul>
+        <div id="nenhuma_formula" class="adicionar oculto">Você não possui mais nenhuma fórmula!</div>
     </main>
 
     <footer>
@@ -61,7 +77,7 @@
             <div>
             <a href="outras.html">
                 <ul class="footericone">
-                    <li class="centrahorizontal"><img src="assets/img/lupa.png" alt="Outros Projetos"></li>
+                    <li class="centrahorizontal"><img id="lupa" src="assets/img/lupa.png" alt="Outros Projetos"></li>
                     <li class="centrahorizontal">+Projetos</li>
                 </ul>
             </a>
@@ -69,7 +85,7 @@
             <div>
             <a href="index.html" class="footericone">
                 <ul class="footericone">
-                    <li class="centrahorizontal"><img src="assets/img/home.png" alt="Pagina inicial"></li>
+                    <li class="centrahorizontal"><img id="home" src="assets/img/home.png" alt="Pagina inicial"></li>
                     <li class="centrahorizontal">Início</li>
                 </ul>
             </a>
@@ -77,7 +93,7 @@
             <div>
             <a href="formulas.html" class="footericone">
                 <ul class="footericone">
-                    <li class="centrahorizontal"><img src="assets/img/bloco.png" alt="Fórmulas"></li>
+                    <li class="centrahorizontal"><img id="formula" src="assets/img/bloco.png" alt="Fórmulas"></li>
                     <li class="centrahorizontal">Fórmulas</li>
                 </ul>
             </a>
