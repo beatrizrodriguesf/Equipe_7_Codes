@@ -140,7 +140,7 @@ a {
     flex-direction: column; 
     width: 100%;
     justify-content: flex-start;
-
+    margin-bottom: 1rem;
 }
 
 .fixar {
