@@ -1,4 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(event){
+    var url = window.location.href;
+    if (url == 'https://beatrizrodriguesf.github.io/') {
+        window.location = './index.html'
+    }
     dinamica = document.getElementById('dinamica')
     hidrostatica = document.getElementById('hidrostatica')
     hidrodinamica = document.getElementById('hidrodinamica')
@@ -62,10 +66,25 @@ document.addEventListener("DOMContentLoaded", function(event){
         });
     }
 
-    var url = window.location.href;
+    url = window.location.href;
     if(url.includes('index'))
     {
-        document.getElementById('home').src='assets/img/home_preenchido.png';
+        document.getElementById('home').src='assets/img/arvore_footer_preenchida.png';
+        areas_fisica = document.querySelectorAll('.folha')
+        aviso = document.querySelector('figure')
+        for (area of areas_fisica) {
+            area.addEventListener('click', function(event) {
+            aviso.style.display = 'block'
+            function ocultar_aviso() {
+                aviso.style.display = 'none'
+            }
+            setTimeout(ocultar_aviso, 2500)
+            })
+        }
+    }
+    if(url.includes('mecanica') || url.includes('cinematica') || url.includes('mruv'))
+    {
+        document.getElementById('home').src='assets/img/arvore_footer_preenchida.png';
     }
     if(url.includes('outras') || url.includes('matematica') || url.includes('materias'))
     {

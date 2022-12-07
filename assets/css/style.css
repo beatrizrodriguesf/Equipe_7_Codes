@@ -104,6 +104,10 @@ strong {
     font-family: 'Noto Serif', 'Kaisei HarunoUmi', serif;
 }
 
+.arvore_footer{
+    width: 35px;
+    height: 35px;
+}
 /* Cinemática */
 
 .num{
@@ -232,7 +236,7 @@ strong {
     position: relative;
 }
 
-.folha1{
+.folha.um{
     position: absolute;
     background-color: transparent;
     color: white;
@@ -241,7 +245,7 @@ strong {
     left: 64.7%;
 }
 
-.folha2{
+.folha.dois{
     position: absolute;
     background-color: transparent;
     color: white;
@@ -250,7 +254,7 @@ strong {
     left: 21%;
 }
 
-.folha3{
+.folha.tres{
     position: absolute;
     background-color: transparent;
     color: white;
@@ -259,7 +263,7 @@ strong {
     left: 56.7%;
 }
 
-.folha4{
+.folha.quatro{
     position: absolute;
     background-color: transparent;
     color: white;
@@ -268,13 +272,28 @@ strong {
     left: 59%;
 }
 
-.folha5{
+.folha.cinco{
     position: absolute;
     background-color: transparent;
     color: white;
     font-family: 'Lato', 'Noto Sans', sans-serif;
     top: 64.8%;
     left: 16%;
+}
+
+.aviso{
+    display: none;
+    position: fixed;
+    padding: 1rem;
+    background-color: white;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    top: 25%;
+    left: 2%;
+    width: 30%;
+    height: 12%;
+    text-align: center;
+    border-radius: 1rem 1rem 1rem 1rem;
+    z-index: 1;
 }
 
 /* Matemática */
@@ -381,6 +400,24 @@ strong {
 
 /* Mecânica */
 
+.barra_progresso {
+    height: 5%;
+    width: 65%;
+    background-color: white;
+    border-radius: 4rem 4rem 4rem 4rem;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+}
+
+.progresso{
+    height: 100%;
+    width: 10%;
+    background-color: #025959;
+    border-radius: 4rem 4rem 4rem 4rem;
+}
 .main-mecanica {
     display: flex;
     flex-direction: column;
