@@ -296,6 +296,13 @@ strong {
     z-index: 1;
 }
 
+.icone-forum {
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
 /* Matemática */
 
 .project-description{
@@ -456,4 +463,74 @@ strong {
     left: 0.8rem;
     font-size: 0.9rem;
     flex-direction: row;
+}
+
+/*Fórum*/
+
+.mensagens {
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 4rem 4rem 4rem 4rem;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.pergunta-forum{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.botao-enviar-forum {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0.5rem;
+}
+
+.pergunta-enviada-forum{
+    width: 75%;
+    margin-left: 2%;
+    background-color:#BF7C63;
+    margin-top: 0.5rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.resposta-enviada-forum{
+    margin-left: 18%;
+    color: #F2EDDC;
+    width: 75%;
+}
+
+.resposta-forum{
+    background-color: #164040;
+    color:#F2EDDC;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.reacao-resposta{
+    float: right;
+}
+
+.reacao-resposta > span {
+    margin-left: 0.3rem;
+}
+
+.responder-forum{
+    width: 100%;
+    right: 10;
+    bottom: 5;
+    margin-top: 1rem;
+}
+
+.lista-perguntas-forum,.lista-respostas-forum{
+    padding-bottom: 5rem;
 }
